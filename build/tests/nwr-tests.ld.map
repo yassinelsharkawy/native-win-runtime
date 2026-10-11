@@ -1,0 +1,247 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/Users/RDP/Desktop/nt-call/build/nwr-syscall.lib(nt_syscall_bridge.S.obj)
+                              C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj (NtSyscallBridge)
+C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+                              C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj (__imp_NtWriteFile)
+C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o)
+                              C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o) (_head_lib64_libntdll_a)
+C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllt.o)
+                              C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o) (__lib64_libntdll_a_iname)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .data          0x0000000000000000        0x0 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .bss           0x0000000000000000        0x0 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .text          0x0000000000000000      0x24f C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .text          0x0000000000000000      0x4c0 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .bss           0x0000000000000000        0x4 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .drectve       0x0000000000000000      0x203 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .llvm_addrsig  0x0000000000000000        0x1 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .data          0x0000000000000000        0x0 C:/Users/RDP/Desktop/nt-call/build/nwr-syscall.lib(nt_syscall_bridge.S.obj)
+ .bss           0x0000000000000000        0x0 C:/Users/RDP/Desktop/nt-call/build/nwr-syscall.lib(nt_syscall_bridge.S.obj)
+ .text          0x0000000000000000        0x8 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+ .data          0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+ .bss           0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+ .text          0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o)
+ .data          0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o)
+ .bss           0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o)
+ .text          0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllt.o)
+ .data          0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllt.o)
+ .bss           0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllt.o)
+ .reloc         0x0000000000000000        0x0 dll stuff
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000140000000                __image_base__ = 0x140000000
+                0x0000000000000000                __dll__ = 0x0
+                0x0000000140000000                __ImageBase = 0x140000000
+                0x0000000000001000                __section_alignment__ = 0x1000
+                0x0000000000001000                __file_alignment__ = 0x1000
+                0x0000000000000004                __major_os_version__ = 0x4
+                0x0000000000000000                __minor_os_version__ = 0x0
+                0x0000000000000000                __major_image_version__ = 0x0
+                0x0000000000000000                __minor_image_version__ = 0x0
+                0x0000000000000005                __major_subsystem_version__ = 0x5
+                0x0000000000000002                __minor_subsystem_version__ = 0x2
+                0x0000000000000003                __subsystem__ = 0x3
+                0x0000000000200000                __size_of_stack_reserve__ = 0x200000
+                0x0000000000001000                __size_of_stack_commit__ = 0x1000
+                0x0000000000100000                __size_of_heap_reserve__ = 0x100000
+                0x0000000000001000                __size_of_heap_commit__ = 0x1000
+                0x0000000000000000                __loader_flags__ = 0x0
+                0x0000000000000160                __dll_characteristics__ = 0x160
+                0x0000000000001000                PAGE_SIZE = __section_alignment__
+                0x0000000000000228                . = SIZEOF_HEADERS
+                0x0000000000001000                . = ALIGN (PAGE_SIZE)
+
+.text           0x0000000140001000     0x3000
+ *(.text$start)
+ .text$start    0x0000000140001000      0x630 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x0000000140001000                start
+ *(SORT_BY_ALIGNMENT(.text*))
+ .text          0x0000000140001630       0xd0 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x0000000140001630                memset
+ .text          0x0000000140001700      0x103 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ *fill*         0x0000000140001803        0xd 
+ .text          0x0000000140001810      0x527 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ *fill*         0x0000000140001d37        0x9 
+ .text          0x0000000140001d40      0xd1f C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ *fill*         0x0000000140002a5f        0x1 
+ .text          0x0000000140002a60       0x56 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ *fill*         0x0000000140002ab6        0xa 
+ .text          0x0000000140002ac0      0x27f C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ *fill*         0x0000000140002d3f        0x1 
+ .text          0x0000000140002d40      0x345 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ *fill*         0x0000000140003085        0xb 
+ .text          0x0000000140003090      0x106 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ *fill*         0x0000000140003196        0xa 
+ .text          0x00000001400031a0      0x6c6 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ *fill*         0x0000000140003866        0xa 
+ .text          0x0000000140003870      0x3de C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ *fill*         0x0000000140003c4e        0x2 
+ .text          0x0000000140003c50       0x24 C:/Users/RDP/Desktop/nt-call/build/nwr-syscall.lib(nt_syscall_bridge.S.obj)
+                0x0000000140003c50                NtSyscallBridge
+
+.data           0x0000000140004000     0x1000
+ *(SORT_BY_ALIGNMENT(.rdata*))
+ .rdata         0x0000000140004000       0x10 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x0000000140004000                __xmm@7fffffffffffffff7fffffffffffffff
+ .rdata         0x0000000140004010       0x10 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x0000000140004010                __xmm@80000000000000008000000000000000
+ .rdata         0x0000000140004020       0x90 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400040b0        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x00000001400040b0                __real@ffefffffffffffff
+ .rdata         0x00000001400040b8        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x00000001400040b8                __real@7fefffffffffffff
+ .rdata         0x00000001400040c0        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x00000001400040c0                __real@41cdcd6500000000
+ .rdata         0x00000001400040c8        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x00000001400040c8                __real@3fe0000000000000
+ .rdata         0x00000001400040d0        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x00000001400040d0                __real@bff8000000000000
+ .rdata         0x00000001400040d8        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x00000001400040d8                __real@3fd287a7636f435f
+ .rdata         0x00000001400040e0        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x00000001400040e0                __real@3fc68a288b60b7fc
+ .rdata         0x00000001400040e8        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x00000001400040e8                __real@bfb8b4df2f3f047e
+ .rdata         0x00000001400040f0        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x00000001400040f0                __real@3fa5f61bb83803ff
+ .rdata         0x00000001400040f8        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x00000001400040f8                __real@3fd34413509f79ff
+ .rdata         0x0000000140004100        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x0000000140004100                __real@000730d67819e8d2
+ .rdata         0x0000000140004108        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x0000000140004108                __real@400a934f0979a371
+ .rdata         0x0000000140004110        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x0000000140004110                __real@bfe62e42fefa39ef
+ .rdata         0x0000000140004118        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x0000000140004118                __real@40026bb1bbb55516
+ .rdata         0x0000000140004120        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x0000000140004120                __real@4000000000000000
+ .rdata         0x0000000140004128        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x0000000140004128                __real@402c000000000000
+ .rdata         0x0000000140004130        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x0000000140004130                __real@4024000000000000
+ .rdata         0x0000000140004138        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x0000000140004138                __real@4018000000000000
+ .rdata         0x0000000140004140        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+                0x0000000140004140                __real@3ff0000000000000
+ .rdata         0x0000000140004148      0x300 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004448       0x17 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x000000014000445f       0x1a C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004479       0x1c C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004495       0x20 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400044b5       0x1d C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400044d2       0x21 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400044f3       0x1d C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004510       0x19 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004529       0x22 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x000000014000454b       0x17 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004562       0x15 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004577       0x21 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004598       0x15 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400045ad       0x14 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400045c1       0x20 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400045e1       0x2b C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x000000014000460c       0x19 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004625       0x22 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004647       0x27 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x000000014000466e       0x30 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x000000014000469e       0x1f C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400046bd       0x1e C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400046db       0x18 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400046f3       0x1f C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004712       0x27 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004739       0x28 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004761       0x20 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004781       0x1e C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x000000014000479f       0x1d C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400047bc       0x1e C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400047da       0x15 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400047ef       0x15 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004804       0x19 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x000000014000481d       0x25 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004842       0x2c C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x000000014000486e       0x26 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004894       0x2e C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400048c2       0x34 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400048f6       0x19 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x000000014000490f       0x1d C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x000000014000492c        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004934       0x21 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004955       0x23 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004978       0x20 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004998        0xb C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400049a3       0x24 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400049c7        0xb C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400049d2       0x24 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x00000001400049f6        0xc C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004a02       0x25 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004a27       0x1d C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004a44       0x22 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004a66       0x25 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004a8b       0x29 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004ab4       0x1d C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004ad1        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004ad9       0x21 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004afa       0x25 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004b1f       0x26 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004b45       0x23 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004b68       0x15 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004b7d        0xd C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004b8a        0xd C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004b97        0x4 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004b9b        0x5 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004ba0        0x5 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .rdata         0x0000000140004ba5        0x4 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ *(SORT_BY_ALIGNMENT(.data*))
+ *(SORT_BY_ALIGNMENT(.bss*))
+ *fill*         0x0000000140004ba9        0x7 
+ .bss           0x0000000140004bb0        0x8 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+ .bss           0x0000000140004bb8        0x4 C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+
+.idata          0x0000000140005000     0x1000
+ SORT_BY_NAME(*)(.idata$2)
+ .idata$2       0x0000000140005000       0x14 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o)
+                0x0000000140005000                _head_lib64_libntdll_a
+ SORT_BY_NAME(*)(.idata$3)
+                0x0000000140005014        0x4 LONG 0x0
+                0x0000000140005018        0x4 LONG 0x0
+                0x000000014000501c        0x4 LONG 0x0
+                0x0000000140005020        0x4 LONG 0x0
+                0x0000000140005024        0x4 LONG 0x0
+                0x0000000140005028                . = ALIGN (0x8)
+ SORT_BY_NAME(*)(.idata$4)
+ .idata$4       0x0000000140005028        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o)
+ .idata$4       0x0000000140005028        0x8 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+ .idata$4       0x0000000140005030        0x8 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllt.o)
+                0x0000000140005038                __IAT_start__ = .
+ SORT_BY_NAME(*)(.idata$5)
+ .idata$5       0x0000000140005038        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o)
+ .idata$5       0x0000000140005038        0x8 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+                0x0000000140005038                __imp_NtWriteFile
+ .idata$5       0x0000000140005040        0x8 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllt.o)
+                0x0000000140005048                __IAT_end__ = .
+ SORT_BY_NAME(*)(.idata$6)
+ .idata$6       0x0000000140005048        0xe C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+ SORT_BY_NAME(*)(.idata$7)
+ *fill*         0x0000000140005056        0x2 
+ .idata$7       0x0000000140005058        0x4 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+ .idata$7       0x000000014000505c        0xc C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllt.o)
+                0x000000014000505c                __lib64_libntdll_a_iname
+LOAD C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.exe.lto.obj
+LOAD C:/Users/RDP/Desktop/nt-call/build/nwr-syscall.lib
+LOAD C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a
+OUTPUT(C:/Users/RDP/Desktop/nt-call/build/tests/nwr-tests.ld.exe pei-x86-64)
+LOAD dll stuff
+
+.reloc          0x0000000140006000        0x0
+ .reloc         0x0000000140006000        0x0 dll stuff

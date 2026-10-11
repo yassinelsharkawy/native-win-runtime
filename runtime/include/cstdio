@@ -1,0 +1,15 @@
+#pragma once
+
+#include <stdio.h>
+
+namespace std
+{
+    using ::snprintf;
+    using ::vsnprintf;
+
+    using ::printf;
+    using ::sprintf;
+    using ::vsprintf;
+
+    using ::vprintf;
+}

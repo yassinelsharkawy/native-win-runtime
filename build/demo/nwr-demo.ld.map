@@ -1,0 +1,274 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/Users/RDP/Desktop/nt-call/build/nwr-syscall.lib(nt_syscall_bridge.S.obj)
+                              C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj (NtSyscallBridge)
+C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+                              C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj (__imp_NtWriteFile)
+C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o)
+                              C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o) (_head_lib64_libntdll_a)
+C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllt.o)
+                              C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o) (__lib64_libntdll_a_iname)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .data          0x0000000000000000        0x0 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .bss           0x0000000000000000        0x0 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .text          0x0000000000000000      0x24f C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .text          0x0000000000000000      0x4c0 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .bss           0x0000000000000000        0x4 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .drectve       0x0000000000000000      0x203 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .llvm_addrsig  0x0000000000000000        0x1 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .data          0x0000000000000000        0x0 C:/Users/RDP/Desktop/nt-call/build/nwr-syscall.lib(nt_syscall_bridge.S.obj)
+ .bss           0x0000000000000000        0x0 C:/Users/RDP/Desktop/nt-call/build/nwr-syscall.lib(nt_syscall_bridge.S.obj)
+ .text          0x0000000000000000        0x8 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+ .data          0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+ .bss           0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+ .text          0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o)
+ .data          0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o)
+ .bss           0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o)
+ .text          0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllt.o)
+ .data          0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllt.o)
+ .bss           0x0000000000000000        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllt.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000140000000                __image_base__ = 0x140000000
+                0x0000000000000000                __dll__ = 0x0
+                0x0000000140000000                __ImageBase = 0x140000000
+                0x0000000000001000                __section_alignment__ = 0x1000
+                0x0000000000001000                __file_alignment__ = 0x1000
+                0x0000000000000004                __major_os_version__ = 0x4
+                0x0000000000000000                __minor_os_version__ = 0x0
+                0x0000000000000000                __major_image_version__ = 0x0
+                0x0000000000000000                __minor_image_version__ = 0x0
+                0x0000000000000005                __major_subsystem_version__ = 0x5
+                0x0000000000000002                __minor_subsystem_version__ = 0x2
+                0x0000000000000003                __subsystem__ = 0x3
+                0x0000000000200000                __size_of_stack_reserve__ = 0x200000
+                0x0000000000001000                __size_of_stack_commit__ = 0x1000
+                0x0000000000100000                __size_of_heap_reserve__ = 0x100000
+                0x0000000000001000                __size_of_heap_commit__ = 0x1000
+                0x0000000000000000                __loader_flags__ = 0x0
+                0x0000000000000160                __dll_characteristics__ = 0x160
+                0x0000000000001000                PAGE_SIZE = __section_alignment__
+                0x0000000000000228                . = SIZEOF_HEADERS
+                0x0000000000001000                . = ALIGN (PAGE_SIZE)
+
+.text           0x0000000140001000     0x4000
+ *(.text$start)
+ .text$start    0x0000000140001000      0xaba C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140001000                start
+ *(SORT_BY_ALIGNMENT(.text*))
+ *fill*         0x0000000140001aba        0x6 
+ .text          0x0000000140001ac0       0xd0 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140001ac0                memset
+ .text          0x0000000140001b90       0xd2 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ *fill*         0x0000000140001c62        0xe 
+ .text          0x0000000140001c70       0x2e C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ *fill*         0x0000000140001c9e        0x2 
+ .text          0x0000000140001ca0       0xa3 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ *fill*         0x0000000140001d43        0xd 
+ .text          0x0000000140001d50      0x103 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ *fill*         0x0000000140001e53        0xd 
+ .text          0x0000000140001e60      0x527 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ *fill*         0x0000000140002387        0x9 
+ .text          0x0000000140002390      0x19c C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ *fill*         0x000000014000252c        0x4 
+ .text          0x0000000140002530      0xd1f C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ *fill*         0x000000014000324f        0x1 
+ .text          0x0000000140003250       0x56 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ *fill*         0x00000001400032a6        0xa 
+ .text          0x00000001400032b0      0x27f C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ *fill*         0x000000014000352f        0x1 
+ .text          0x0000000140003530      0x345 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ *fill*         0x0000000140003875        0xb 
+ .text          0x0000000140003880      0x106 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ *fill*         0x0000000140003986        0xa 
+ .text          0x0000000140003990      0x6c6 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ *fill*         0x0000000140004056        0xa 
+ .text          0x0000000140004060      0x3de C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ *fill*         0x000000014000443e        0x2 
+ .text          0x0000000140004440       0x24 C:/Users/RDP/Desktop/nt-call/build/nwr-syscall.lib(nt_syscall_bridge.S.obj)
+                0x0000000140004440                NtSyscallBridge
+
+.data           0x0000000140005000     0x2000
+ *(SORT_BY_ALIGNMENT(.rdata*))
+ .rdata         0x0000000140005000       0x10 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005000                __xmm@7fffffffffffffff7fffffffffffffff
+ .rdata         0x0000000140005010       0x10 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005010                __xmm@80000000000000008000000000000000
+ .rdata         0x0000000140005020      0x160 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005180       0x90 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005210        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005210                __real@ffefffffffffffff
+ .rdata         0x0000000140005218        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005218                __real@7fefffffffffffff
+ .rdata         0x0000000140005220        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005220                __real@41cdcd6500000000
+ .rdata         0x0000000140005228        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005228                __real@3fe0000000000000
+ .rdata         0x0000000140005230        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005230                __real@bff8000000000000
+ .rdata         0x0000000140005238        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005238                __real@3fd287a7636f435f
+ .rdata         0x0000000140005240        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005240                __real@3fc68a288b60b7fc
+ .rdata         0x0000000140005248        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005248                __real@bfb8b4df2f3f047e
+ .rdata         0x0000000140005250        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005250                __real@3fa5f61bb83803ff
+ .rdata         0x0000000140005258        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005258                __real@3fd34413509f79ff
+ .rdata         0x0000000140005260        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005260                __real@000730d67819e8d2
+ .rdata         0x0000000140005268        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005268                __real@400a934f0979a371
+ .rdata         0x0000000140005270        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005270                __real@bfe62e42fefa39ef
+ .rdata         0x0000000140005278        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005278                __real@40026bb1bbb55516
+ .rdata         0x0000000140005280        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005280                __real@4000000000000000
+ .rdata         0x0000000140005288        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005288                __real@402c000000000000
+ .rdata         0x0000000140005290        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005290                __real@4024000000000000
+ .rdata         0x0000000140005298        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x0000000140005298                __real@4018000000000000
+ .rdata         0x00000001400052a0        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+                0x00000001400052a0                __real@3ff0000000000000
+ .rdata         0x00000001400052a8       0x30 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x00000001400052d8       0x8c C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005364       0x8c C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x00000001400053f0      0x1e8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x00000001400055d8      0x300 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x00000001400058d8       0x48 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005920        0xe C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x000000014000592e        0x6 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005934       0x14 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005948        0x6 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x000000014000594e        0xe C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x000000014000595c       0x10 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x000000014000596c        0x6 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005972       0x1d C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x000000014000598f       0x11 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x00000001400059a0       0x22 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x00000001400059c2        0xb C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x00000001400059cd       0x36 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005a03        0xb C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005a0e       0x36 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005a44        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005a4c       0x33 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005a7f        0xa C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005a89       0x23 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005aac        0xa C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005ab6       0x19 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005acf        0xb C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005ada       0x13 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005aed       0x2c C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005b19       0x1c C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005b35        0xa C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005b3f       0x3b C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005b7a       0x45 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005bbf       0x2b C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005bea       0x2d C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005c17        0xc C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005c23        0xc C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005c2f       0x41 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005c70        0x2 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005c72       0x24 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005c96       0x2a C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005cc0        0xe C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005cce       0x2a C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005cf8       0x36 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005d2e       0x2c C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005d5a       0x24 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005d7e       0x19 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005d97        0xd C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005da4       0x1c C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005dc0        0x6 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005dc6        0x4 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005dca        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005dd2       0x26 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005df8       0x28 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005e20       0x2d C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005e4d       0x3b C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005e88       0x2e C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005eb6        0xe C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005ec4       0x27 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005eeb       0x19 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005f04       0x1e C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005f22        0xf C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005f31       0x15 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005f46       0x19 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005f5f       0x17 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005f76       0x1d C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005f93       0x17 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005faa       0x14 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005fbe       0x17 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005fd5       0x1c C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140005ff1       0x18 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140006009       0x16 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x000000014000601f       0x19 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140006038       0x13 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x000000014000604b       0x11 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x000000014000605c       0x15 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140006071       0x18 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140006089       0x1d C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x00000001400060a6       0x1d C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x00000001400060c3       0x1b C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x00000001400060de       0x15 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x00000001400060f3       0x15 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140006108       0x1c C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140006124        0x4 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140006128        0x5 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x000000014000612d        0x5 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ .rdata         0x0000000140006132        0x4 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+ *(SORT_BY_ALIGNMENT(.data*))
+ *(SORT_BY_ALIGNMENT(.bss*))
+ *fill*         0x0000000140006136        0x2 
+ .bss           0x0000000140006138        0x8 C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+
+.idata          0x0000000140007000     0x1000
+ SORT_BY_NAME(*)(.idata$2)
+ .idata$2       0x0000000140007000       0x14 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o)
+                0x0000000140007000                _head_lib64_libntdll_a
+ SORT_BY_NAME(*)(.idata$3)
+                0x0000000140007014        0x4 LONG 0x0
+                0x0000000140007018        0x4 LONG 0x0
+                0x000000014000701c        0x4 LONG 0x0
+                0x0000000140007020        0x4 LONG 0x0
+                0x0000000140007024        0x4 LONG 0x0
+                0x0000000140007028                . = ALIGN (0x8)
+ SORT_BY_NAME(*)(.idata$4)
+ .idata$4       0x0000000140007028        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o)
+ .idata$4       0x0000000140007028        0x8 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+ .idata$4       0x0000000140007030        0x8 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllt.o)
+                0x0000000140007038                __IAT_start__ = .
+ SORT_BY_NAME(*)(.idata$5)
+ .idata$5       0x0000000140007038        0x0 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllh.o)
+ .idata$5       0x0000000140007038        0x8 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+                0x0000000140007038                __imp_NtWriteFile
+ .idata$5       0x0000000140007040        0x8 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllt.o)
+                0x0000000140007048                __IAT_end__ = .
+ SORT_BY_NAME(*)(.idata$6)
+ .idata$6       0x0000000140007048        0xe C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+ SORT_BY_NAME(*)(.idata$7)
+ *fill*         0x0000000140007056        0x2 
+ .idata$7       0x0000000140007058        0x4 C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdlls00707.o)
+ .idata$7       0x000000014000705c        0xc C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a(libntdllt.o)
+                0x000000014000705c                __lib64_libntdll_a_iname
+LOAD C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.exe.lto.obj
+LOAD C:/Users/RDP/Desktop/nt-call/build/nwr-syscall.lib
+LOAD C:/mingw64/x86_64-w64-mingw32/lib/libntdll.a
+OUTPUT(C:/Users/RDP/Desktop/nt-call/build/demo/nwr-demo.ld.exe pei-x86-64)
+LOAD dll stuff
+
+.reloc          0x0000000140008000     0x1000
+ .reloc         0x0000000140008000       0x40 dll stuff

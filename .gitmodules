@@ -1,0 +1,6 @@
+[submodule "third_party/phnt"]
+	path = third_party/phnt
+	url = https://github.com/winsiderss/phnt.git
+[submodule "third_party/printf"]
+	path = third_party/printf
+	url = https://github.com/eyalroz/printf.git

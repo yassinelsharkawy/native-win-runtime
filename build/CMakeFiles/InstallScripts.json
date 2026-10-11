@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/RDP/Desktop/nt-call/build/cmake_install.cmake",
+		"C:/Users/RDP/Desktop/nt-call/build/third_party/phnt/cmake_install.cmake",
+		"C:/Users/RDP/Desktop/nt-call/build/runtime/cmake_install.cmake",
+		"C:/Users/RDP/Desktop/nt-call/build/runtime/printf/cmake_install.cmake",
+		"C:/Users/RDP/Desktop/nt-call/build/demo/cmake_install.cmake",
+		"C:/Users/RDP/Desktop/nt-call/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

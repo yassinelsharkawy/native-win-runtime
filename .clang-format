@@ -1,0 +1,9 @@
+BasedOnStyle: Microsoft
+
+FixNamespaceComments: false
+NamespaceIndentation: All
+
+BinPackArguments: false
+BinPackParameters: false
+
+SortIncludes: false
