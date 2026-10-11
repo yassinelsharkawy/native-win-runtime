@@ -339,7 +339,7 @@ Output:
 
 Output:
 
-![Output](./1.png)
+![Output](1.png)
 
 ```text
 Usage: nwr-demo [OPTIONS]
